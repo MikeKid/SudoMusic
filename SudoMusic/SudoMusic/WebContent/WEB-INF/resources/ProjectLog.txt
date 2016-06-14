@@ -1,0 +1,31 @@
+DONE:
+	* Internationalisation
+	* Maven
+	* Email sending
+	* Database connection
+	* Password control
+	
+DOING:
+	* Form errors handling (contactForm.jsp)
+	
+TO BE DONE
+	* Define error page as error page
+	* Add date of birth to register
+	* Login persistence with cookies
+	* SVN/GIT
+	* CSS styles
+
+
+GREAT HELP GUIDES:
+	* MVC
+		- http://www.mkyong.com/spring-mvc/spring-mvc-form-check-if-a-field-has-an-error/
+		- http://www.mkyong.com/spring-mvc/spring-mvc-form-errors-tag-example/
+		- http://www.mkyong.com/spring-mvc/spring-mvc-form-handling-example/
+	* Hibernate
+		- http://hibernate.org/orm/documentation/5.0/
+		- http://code2care.org/2015/hibernate.cfg.xml-configuration-and-mapping-xml-example/
+		- http://stackoverflow.com/questions/1654467/springhibernate-mapping-class-without-xml
+		- http://javabeat.net/session-factory-hibernate-4/
+		- http://courses.coreservlets.com/Course-Materials/hibernate.html
+		- https://docs.jboss.org/hibernate/orm/3.6/quickstart/en-US/html/hibernate-gsg-obtain.html
+		
