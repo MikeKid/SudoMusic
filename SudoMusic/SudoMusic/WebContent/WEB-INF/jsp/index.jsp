@@ -22,7 +22,14 @@ body {
 		<br/>
 		<a href="login"><spring:message code="login.title.short"/></a> - <a href="register"><spring:message code="register.title.short"/></a>
 		<br/>
-	</div>	
+	</div>
+	
+	<div>
+		<h4>
+			<spring:message code="index.features.title"/>
+		</h4>
+		<spring:message code="index.features.contents"/>
+	</div>
 </body>
 </html>
 <%@ include file="/WEB-INF/jsp/footer.jsp" %>
