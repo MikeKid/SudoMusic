@@ -12,10 +12,9 @@ DOING:
 TO BE DONE
 	* CSS styles!!
 	* Define error page as error page
-	* Add date of birth to register
+	* Add date of birth and sex to register
 	* Add radio button for contact reason
 	* Forgot your password link
 	* Login persistence with cookies
 	* Save images as binary
 	* Create slide show
-	* Home page for known user

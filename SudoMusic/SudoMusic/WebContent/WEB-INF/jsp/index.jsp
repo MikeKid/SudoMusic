@@ -11,15 +11,18 @@ body {
 <body>
 	<br>
 	<div style="text-align:center">
-		<h2>
-			Hey You..!! This is Sudo Music<br> <br>
-		</h2>
 		<h3>
-			<a href="login">Log in</a> or <a href="register">register</a>.
-			<br/>
-			You can also browse anonymously.
+			<spring:message code="index.title.long"/>
 		</h3>
 	</div>
+	
+	<div style="text-align:center">
+		<spring:message code="index.message.greeting"/>
+		<br/>
+		<br/>
+		<a href="login"><spring:message code="login.title.short"/></a> - <a href="register"><spring:message code="register.title.short"/></a>
+		<br/>
+	</div>	
 </body>
 </html>
-<%@ include file="/WEB-INF/jsp/footer.jsp" %> <!-- TODO Path should come from config -->
+<%@ include file="/WEB-INF/jsp/footer.jsp" %>
