@@ -1,6 +1,6 @@
 DONE:
 	* GIT
-	* Internationalisation
+	* Internationalisation (cookies)
 	* Maven
 	* Email sending
 	* Database connection
@@ -10,7 +10,13 @@ DOING:
 	* Form errors handling (contactForm.jsp)
 	
 TO BE DONE
+	* CSS styles!!
 	* Define error page as error page
 	* Add date of birth to register
+	* Add radio button for contact reason
+	* Forgot your password link
 	* Login persistence with cookies
-	* CSS styles
+	* Fix home page and rename as front page
+	* Save images as binary
+	* Create slide show
+	* Home page for known user
