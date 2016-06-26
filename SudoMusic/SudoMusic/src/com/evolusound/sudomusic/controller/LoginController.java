@@ -33,7 +33,7 @@ public class LoginController {
 			modelAndView.addObject("message", LOGIN_FAILED);
 			return modelAndView;
 		} else {
-			return new ModelAndView("welcome", "message", WELCOME_GREETING);
+			return new ModelAndView("home", "message", WELCOME_GREETING);
 		}
 	}
 	

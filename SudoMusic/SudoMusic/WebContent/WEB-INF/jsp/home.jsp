@@ -13,7 +13,7 @@ body {
 
 	<br>
 	<div style='text-align:center;'>
-			<h3><spring:message code="welcome.title.long"/></h3>
+			<h3><spring:message code="home.title.long"/></h3>
 			<spring:message code="${message}"/>
 	</div>
 	

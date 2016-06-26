@@ -8,8 +8,8 @@ public final class AlertConstants {
 
 	//User interactions
 	public static final String LOGIN_FAILED = "Sorry, I can't recognize you. Please check your email and password and try again.";
-	public static final String WELCOME_GREETING = "welcome.message.loginSuccessful";
-	public static final String DEFAULT_GREETING = "welcome.message.feelComfortable";
+	public static final String WELCOME_GREETING = "home.message.loginSuccessful";
+	public static final String DEFAULT_GREETING = "home.message.feelComfortable";
 	public static final String MINORS_NOT_ALLOWED = "Sorry kid, no minors allowed in here";
 	
 	public static final String CONTACT_MESSAGE = "contactForm.title.long";

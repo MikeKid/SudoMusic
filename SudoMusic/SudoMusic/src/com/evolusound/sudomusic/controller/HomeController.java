@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class WelcomeController {
+public class HomeController {
  
-	@RequestMapping("/welcome")
+	@RequestMapping("/home")
 	public ModelAndView getPage() {
-		return new ModelAndView("welcome", "message", DEFAULT_GREETING);
+		return new ModelAndView("home", "message", DEFAULT_GREETING);
 	}
 }
