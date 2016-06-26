@@ -3,6 +3,7 @@ DONE:
 	* Internationalisation (cookies)
 	* Maven
 	* Email sending
+	* Orika mapper
 	* Database connection
 	* Password control
 	
