@@ -16,7 +16,6 @@ TO BE DONE
 	* Add radio button for contact reason
 	* Forgot your password link
 	* Login persistence with cookies
-	* Fix home page and rename as front page
 	* Save images as binary
 	* Create slide show
 	* Home page for known user
