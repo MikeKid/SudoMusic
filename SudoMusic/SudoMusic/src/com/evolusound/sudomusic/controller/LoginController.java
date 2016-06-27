@@ -1,10 +1,10 @@
 package com.evolusound.sudomusic.controller;
 
 import static com.evolusound.sudomusic.constant.AlertConstants.LOGIN_FAILED;
-import static com.evolusound.sudomusic.constant.AlertConstants.WELCOME_GREETING;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -26,14 +26,14 @@ public class LoginController {
 	}
 
 	@RequestMapping(value="/login", method=RequestMethod.POST)
-	public ModelAndView loginSubmit(@ModelAttribute LoginCommand cmd) {
+	public String loginSubmit(@ModelAttribute LoginCommand cmd, Model model) {
 		CustomerDTO customerDTO = loginService.checkEmailAndPassword(cmd.getEmail(), cmd.getPassword());
 		if (customerDTO == null) {
-			ModelAndView modelAndView = new ModelAndView("login", "command", new CustomerDTO());
-			modelAndView.addObject("message", LOGIN_FAILED);
-			return modelAndView;
+			model.addAttribute("command", new CustomerDTO());
+			model.addAttribute("message", LOGIN_FAILED);
+			return "login";
 		} else {
-			return new ModelAndView("home", "message", WELCOME_GREETING);
+			return "redirect:/home";
 		}
 	}
 	

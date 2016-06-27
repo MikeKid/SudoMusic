@@ -11,13 +11,13 @@ body {
 
 <body>
 
-	<br>
+	<br/>
 	<div style='text-align:center;'>
 			<h3><spring:message code="home.title.long"/></h3>
-			<spring:message code="${message}"/>
+			<spring:message code="${message}" arguments="${customer.name}" htmlEscape="false"/>
 	</div>
 	
-	<br><br>
+	<br/><br/>
 </body>
 </html>
 <%@ include file="footer.jsp" %>
