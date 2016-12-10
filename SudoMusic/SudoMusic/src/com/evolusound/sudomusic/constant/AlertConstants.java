@@ -7,10 +7,10 @@ public final class AlertConstants {
 	public static final int MINIMUM_LEGAL_AGE = 18;
 
 	//User interactions
-	public static final String LOGIN_FAILED = "Sorry, I can't recognize you. Please check your email and password and try again.";
+	public static final String LOGIN_FAILED = "login.message.failed";
 	public static final String WELCOME_GREETING = "home.message.loginSuccessful";
 	public static final String DEFAULT_GREETING = "home.message.feelComfortable";
-	public static final String MINORS_NOT_ALLOWED = "Sorry kid, no minors allowed in here";
+	public static final String MINORS_NOT_ALLOWED = "register.message.minor";
 	
 	public static final String CONTACT_MESSAGE = "contactForm.title.long";
 	public static final String CONTACT_FORM_SENT = "contactForm.message.successful";

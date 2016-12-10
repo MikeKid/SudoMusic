@@ -9,7 +9,7 @@
 	<h3>
 		<spring:message code="login.title.long"/>
 	</h3>
-	${message}
+	<spring:message code="${message}" htmlEscape="false"/>
 	
 	<form method="POST" action="/SudoMusic/login">
 	    <table>
