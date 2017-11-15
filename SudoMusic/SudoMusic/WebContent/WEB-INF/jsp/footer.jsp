@@ -8,7 +8,7 @@
 <body>
 	<br><br><br><br>
 	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
-		© 2016 Sudo Music Inc. by <a href="http://www.soundcloud.com/dark_kid">Dark Kid</a>.<br/>
+		© 2018 <a href="http://www.lumaco.co.uk/">Luma Co.</a>.<br/>
 		<a href="#">Advertise here</a><br/>
 		Do you want your own web page? <a href="#">Let us know!</a>		
 	</div>

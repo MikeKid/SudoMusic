@@ -19,8 +19,6 @@
 	<div class="collapse navbar-collapse">
 		<ul class="nav navbar nav">
 			<li><a href="index"><spring:message code="index.title.short"/></a></li>
-			<li><a href="about"><spring:message code="about.title.short"/></a></li>
-			<li><a href="contactForm"><spring:message code="contactForm.title.short"/></a></li>
 			<li>EXPERIMENTAL <a href="error"><spring:message code="error.title.short"/></a></li>
 		</ul>
 	</div>
@@ -29,7 +27,7 @@
 		<ul class="nav navbar nav">
 			<li><a href="login"><spring:message code="login.title.short"/></a></li>
 			<li><a href="register"><spring:message code="register.title.short"/></a></li>
-			<li>EXPERIMENTAL <a href="home"><spring:message code="home.title.short"/></a></li>
+			<li>EXPERIMENTAL (cookies session) <a href="home"><spring:message code="home.title.short"/></a></li>
 		</ul>
 	</div>
 	

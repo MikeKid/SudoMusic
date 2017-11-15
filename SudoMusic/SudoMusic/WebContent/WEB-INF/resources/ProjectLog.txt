@@ -1,23 +1,16 @@
 DONE:
 	* GIT
+	* Spring MVC
+	* Hibernate
 	* Internationalisation (cookies)
 	* Maven
-	* Email sending
 	* Orika mapper
 	* Database connection
 	* Password control
 	
-DOING:
-	* Form errors handling (contactForm.jsp)
-	
 TO BE DONE
-	* CSS styles!!
-	* Define error page as error page
-	* Add date of birth and sex to register
 	* Forgot your password link
 	* Login persistence with cookies
 	
 INTERESTING TO HAVE	
-	* Add radio button for contact reason
 	* Save images as binary
-	* Create slide show

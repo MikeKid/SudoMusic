@@ -20,6 +20,5 @@ public final class AlertConstants {
 	//Errors
 	public static final String DATABASE_CONNECTION_ERROR = 
 			APPLICATION_NAME + " database connection error";
-	//public static final String EMAIL_NOT_VALID = "The email address doesn't have a valid format.";
 	
 }

@@ -19,7 +19,6 @@ public class HomeController {
 		if (customerLoggedIn) {
 			modelAndView = new ModelAndView("home", "message", WELCOME_GREETING);
 			CustomerDTO dummyCustomer = new CustomerDTO(); //TODO retrieve from session cookie
-			dummyCustomer.setName("Pepito"); //TODO Debug purposes
 			modelAndView.addObject("customer", dummyCustomer);
 		} else {
 			modelAndView = new ModelAndView("home", "message", DEFAULT_GREETING);
